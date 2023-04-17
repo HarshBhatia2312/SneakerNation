@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Sneaker Nation</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <!--Navbar-->
+        <section id="header">
+            <a href="home.html"
+              ><img
+                src="img/logo123456.png"
+                class="logo"
+                alt="logo"
+                width="260px"
+                height="60px"
+            /></a>
+      
+            <div>
+              <ul id="navbar">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a class="active" href="login.html">Sign Up</a></li>
+                <li id="lg-bag">
+                  <a href="cart.html"
+                    ><i class="fa fa-shopping-cart" style="font-size: 20px"></i
+                  ></a>
+                </li>
+                <a href="#" id="close"><i class="fa fa-times"></i></a>
+              </ul>
+            </div>
+            <div id="mobile">
+              <a href="cart.html"
+                ><i class="fa fa-shopping-cart" style="font-size: 20px"></i
+              ></a>
+              <i id="bar" class="fa fa-outdent"></i>
+            </div>
+        </section>
+        
+        <!--Login-->
+        <section id="login"><!--add hero style in login-->
+            <div class="wrapper">
+              <h2>Create Account</h2>
+                <form action="#">
+                    <div class="input-box">
+                        <label for="name">Enter your Name:</label><br>
+                        <input type="text" placeholder="Enter your name" required>
+                    </div><br>
+                    <div class="input-box">
+                        <label for="email">Enter your E-mail:</label><br>
+                        <input type="text" placeholder="Enter your email" required>
+                    </div><br>
+                    <div class="input-box">
+                        <label for="pass">Password:</label><br>
+                        <input type="password" placeholder="Create Password" required>
+                    </div><br>
+                    <div class="input-box">
+                        <label for="cpass">Confirm Password:</label><br>
+                        <input type="password" placeholder="Confirm Password" required>
+                    </div><br>
+                    <div class="policy">
+                      <input type="checkbox">
+                      <h3>I accept all Terms & Conditions*</h3>
+                    </div>
+                    <div class="input-box button">
+                      <input type="Submit" value="Register Now">
+                    </div>
+                    <div class="text">
+                      <h3>Already have an account? <a href="login.html">Login now</a></h3>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+
+    </body>
+</html>
